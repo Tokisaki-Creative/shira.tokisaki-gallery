@@ -14,7 +14,7 @@ const ShiraFooter = () => {
         <FaTwitter size={32} />
         <FaFacebook size={32} />
       </div>
-      <p>sdf</p>
+      <div className="w-[80vw] border-t-2 border-primary500 my-4"></div>
       <p>© Tokisaki Gallery . ALL RIGHTS RESERVED.</p>
     </div>
   );

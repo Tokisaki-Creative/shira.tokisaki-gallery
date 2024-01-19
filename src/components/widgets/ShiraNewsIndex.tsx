@@ -1,6 +1,7 @@
 import React from "react";
 import ShiraHeader from "../header/ShiraHeader";
 import ShiraNewsCard from "../cards/ShiraNewsCard";
+import ShiraMoreButton from "../label/ShiraMoreButton";
 
 const ShiraNewsIndex = () => {
   const mockNewsDate = new Date(2023, 0, 1);
@@ -13,6 +14,7 @@ const ShiraNewsIndex = () => {
           newsDate={mockNewsDate}
           newsTags={["cosplay", "daily"]}
         />
+        <ShiraMoreButton title="More News" />
       </div>
     </>
   );
